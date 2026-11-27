@@ -51,4 +51,6 @@ Evaluasi model dilakukan menggunakan `StratifiedKFold(n_splits=5)` dan `GridSear
 1. Instal dependensi utama:
    ```bash
    pip install streamlit scikit-learn pandas numpy joblib
+
+   streamlit run app_streamlit.py
    
