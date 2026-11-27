@@ -49,8 +49,10 @@ Evaluasi model dilakukan menggunakan `StratifiedKFold(n_splits=5)` dan `GridSear
 
 ## Cara Menjalankan Lokal
 1. Instal dependensi utama:
-   ```bash
-   pip install streamlit scikit-learn pandas numpy joblib
 
-   streamlit run app_streamlit.py
+       pip install streamlit scikit-learn pandas numpy joblib
+
+2. Jalankan aplikasi Streamlit:
+
+       streamlit run app_streamlit.py
    
